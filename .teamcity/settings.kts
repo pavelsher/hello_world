@@ -31,6 +31,7 @@ project {
 }
 
 object HelloWorld : BuildType({
+    id("MyBuildConf")
     name = "Hello world"
 
     steps {
